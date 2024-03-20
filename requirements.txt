@@ -1,8 +1,6 @@
-deepxde
-emukit
-GPy
-matplotlib
-numpy
-pandas
-scipy
-sklearn
+numpy  
+pandas  
+scipy  
+matplotlib  
+builtins  
+
