@@ -1,8 +1,8 @@
-## Scratch model
+## Scratch model  
 The code to create the scratch model is in [FEMModel](ScratchTest/FEMModel)  
 Run [ScratchVPL-240320.py](ScratchTest/FEMModel/ScratchVPL-240320.py) through abaqus 2020 to get the scratch model  
 Export the inp file of the model,run [VPL-Generate-Inp-240320.py](ScratchTest/FEMModel/VPL-Generate-Inp-240320.py) through pycharm 2023 to get the batch calculation inp file  
-Put [Submit_inp](ScratchTest/FEMModel/Submit_inp) and inp file in the same folder, and the dual-machine bat file can be submitted for calculation   
+Put [Submit_inp.bat](ScratchTest/FEMModel/Submit_inp.bat) and inp file in the same folder, and the dual-machine bat file can be submitted for calculation   
 The calculated odb file can be extracted by running [VPL-GetData-240320.py](ScratchTest/FEMModel/VPL-GetData-240320.py) through abaqus 2020   
 The limited metadata in this paper is obtained from this
 
